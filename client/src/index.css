@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400;500;700&display=swap');
+
+* {
+  font-family: 'Prompt', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+/* *:focus {
+  outline: none !important;
+  border: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+input:focus {
+  border: 1px solid rgb(113, 178, 238);
+  box-shadow: none !important;
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.mymodal {
+  background-color: rgba(0, 0, 0, 0.35);
+}
